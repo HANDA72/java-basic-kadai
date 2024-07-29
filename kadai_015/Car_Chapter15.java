@@ -11,7 +11,7 @@ public class Car_Chapter15 {
 		this.gear  = gear;
 		this.speed = speed;
 	}
-
+        
 	// 【メソッド】ギアの値により速度を変える
 	public void gearChange( int afterGear ) {
 		this.gear = afterGear;
@@ -26,9 +26,10 @@ public class Car_Chapter15 {
         　　　　　　　　　　　　　　　　default  -> 10;
 		};
 	}
-		// 【メソッド】ギアチェンジ後の速度を表示する
-		public void run() {
-			System.out.println( "ギア1から" + this.gear +"に切り替えました" );
-			System.out.println( "速度は時速" + this.speed + "kmです" );
+	
+	// 【メソッド】ギアチェンジ後の速度を表示する
+	public void run() {
+		System.out.println( "ギア1から" + this.gear +"に切り替えました" );
+		System.out.println( "速度は時速" + this.speed + "kmです" );
 	}
 }
