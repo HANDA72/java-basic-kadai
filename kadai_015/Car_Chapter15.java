@@ -20,10 +20,10 @@ public class Car_Chapter15 {
 		speed = switch(afterGear) {
 		case 1   -> 10;
 		case 2   -> 20;
-        case 3   -> 30;
-        case 4   -> 40;
-        case 5   -> 50;
-        default  -> 10;
+        　　　　　　　　　　　　　　　　case 3   -> 30;
+        　　　　　　　　　　　　　　　　case 4   -> 40;
+        　　　　　　　　　　　　　　　　case 5   -> 50;
+        　　　　　　　　　　　　　　　　default  -> 10;
 		};
 	}
 		// 【メソッド】ギアチェンジ後の速度を表示する
